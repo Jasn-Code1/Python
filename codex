@@ -1,0 +1,4 @@
+python3 -m pip install keyboard selenium webdriver_manager
+
+Set objShell = CreateObject("WScript.Shell")
+objShell.Run "cmd.exe /c python3 ""C:\main.py""", 0, False
