@@ -36,7 +36,7 @@ while True:
                         key1 = "|CL|"
                     case _:
                         if len(key)>1:
-                            key1 = f'|{key.capitalize()}|'
+                            key1 = f'|{key.upper()}|'
                 driver.execute_script(f"document.querySelector('input[name=\"inp\"]').value = document.querySelector('input[name=\"inp\"]').value + '{key1}';")
     except:
         print("error")
